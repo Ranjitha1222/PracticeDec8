@@ -34,6 +34,7 @@ public class Main {
 			driver.findElement(By.id("log")).sendKeys(UserName); 	 
 		    driver.findElement(By.id("pwd")).sendKeys(Password);
 		    Thread.sleep(10);
+		    System.out.println("Hai");
 		    driver.findElement(By.id("login")).click();		    
 			}
 				
